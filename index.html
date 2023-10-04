@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            max-width: 500px;
+            max-height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div style="width: 500px; height: 300px; background-color: beige;" >
+        <img id="slideShow" src="" alt="">
+    </div>
+    <br>
+    <button onclick="chonAnh(0)">Ảnh 1</button>
+    <button onclick="chonAnh(1)">Ảnh 2</button>
+    <button onclick="chonAnh(2)">Ảnh 3</button>
+    <br>
+    <br>
+    <button onclick="luiAnh()">Lùi ảnh</button>
+    <button onclick="tienAnh()">Tiến ảnh</button>
+    <button onclick="duyetDanhSachAnh()">Duyệt ảnh</button>
+    <br>
+    <br>
+    <button onclick="duyetDanhSachAnhVoHan()" >Duyệt Danh Sách Ảnh Vô Hạn</button>
+    <button onclick="dungDuyetTuDongVoHan()">Dừng Duyệt Tự Động Vô Hạn</button>
+    <button onclick="ngauNhien">Chon anh ngau nhien</button>
+    <script src="index.js"></script>
+</body>
+</html>
